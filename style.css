@@ -29,6 +29,7 @@ h2 {
     font-family: "Death Note", sans-serif;
     color: red;
     font-size: 54px;
+    margin-block: 24px;
 }
 
 p {
@@ -41,6 +42,10 @@ p {
 
 img {
     border-radius: 8px;
+    flex: 1;
+    width: auto;
+    height: 460px;
+    object-fit: cover;
 }
 
 .introducao, .loira {
@@ -51,16 +56,8 @@ img {
     align-items: center;
     gap: 94px;
 
-    img {
-        flex: 1;
-        width: auto;
-        height: 460px;
-        object-fit: cover;
-    }
 
     p {
-        display: flex;
-        align-items: stretch;
         flex: 1;
         max-width: 750px;
     }
@@ -76,7 +73,10 @@ hr {
 }
 
 .loira {
-    display: flex;
     flex-direction: row-reverse;
-    align-items: flex-start;
+}    
+
+.conteudo-loira {
+    flex: 1;
+    max-width: 750px;
 }
