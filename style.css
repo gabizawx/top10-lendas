@@ -25,12 +25,25 @@ h1 {
     
 }
 
+h2 {
+    font-family: "Death Note", sans-serif;
+    color: red;
+    font-size: 54px;
+}
+
 p {
     color: white;
     font-family: "Courier Prime", sans-serif;
+    line-height: 1.7;
+    text-align: left;
+    font-size: 20px;
 }
 
-.introducao {
+img {
+    border-radius: 8px;
+}
+
+.introducao, .loira {
     width: 90%;
     max-width: 1500px;
     margin: 0 auto;
@@ -46,13 +59,24 @@ p {
     }
 
     p {
-        margin: 0;
         display: flex;
         align-items: stretch;
         flex: 1;
         max-width: 750px;
-        line-height: 1.7;
-        text-align: left;
-        font-size: 20px;
     }
+}
+
+hr {
+    margin-inline: 254px;
+    margin-block: 82px;
+    border: none;
+    height: 1px;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.loira {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
 }
