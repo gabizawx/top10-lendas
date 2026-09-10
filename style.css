@@ -48,7 +48,7 @@ img {
     object-fit: cover;
 }
 
-.introducao, .loira, .cobra, .saco, .palhaco, .boneca, .mulher {
+.introducao, .loira, .cobra, .saco, .palhaco, .boneca, .mulher, .lobisomem, .chupa, .corpo, .varginha {
     width: 90%;
     max-width: 1500px;
     margin: 0 auto;
@@ -73,11 +73,15 @@ hr {
     opacity: 0.5;
 }
 
-.loira, .saco, .boneca {
+.loira, .saco, .boneca, .lobisomem, .corpo {
     flex-direction: row-reverse;
 }    
 
 .conteudo-loira {
     flex: 1;
     max-width: 750px;
+}
+
+body {
+    margin-bottom: 350px;
 }
